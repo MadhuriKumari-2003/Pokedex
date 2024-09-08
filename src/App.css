@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.outer-pokedex {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures full viewport height */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+#pokedex-heading {
+    margin: 0 auto;
+    color: rgb(235, 237, 247);
+    letter-spacing: 4px;
+    padding: 10px; /* Optional: Adjust padding if needed */
+}
+
+/* Footer styling */
+.footer {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: static; /* Ensure it's not fixed */
+    margin: 0; /* Ensure no margin */
+}
+
+/* Ensure no overflow from footer content */
+.footer-content {
+    overflow: hidden; /* Prevent overflow */
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: #61dafb;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #4fa3d3;
+}
